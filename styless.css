@@ -1,0 +1,125 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 23px;   
+}
+
+.button-header {
+    width: 130px;
+    height: 41px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;   
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-section {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+   
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .logo-image{
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin: 149px 14px 20px 22px;
+    }
+
+    p {
+        display: none;   
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: normal;
+        width: 263px;
+        height: 52px;
+    }
+
+    h2 {
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 37px;
+        margin-bottom: 17px;
+        margin-top: 10px;
+        margin-left: 12px;
+    }
+
+    .button-section{
+        margin: 17px 76px 133px 15px;
+    } 
+}
+    
+
